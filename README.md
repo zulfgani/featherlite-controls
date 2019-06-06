@@ -1,5 +1,5 @@
 # CentriK Controls
-CentriK Controllers allows you to reposition, enable or diable various design elements hooked to action locations.
+CentriK Controls allows you to reposition, enable or diable various design elements hooked to action locations.
 
 ## Header Controls
 Control header layout, menu position.
