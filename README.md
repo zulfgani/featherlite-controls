@@ -1,5 +1,5 @@
-# CentriK Controls
-CentriK Controls allows you to reposition, enable or diable various design elements hooked to action locations.
+# FeatherLite Controls
+FeatherLite Controls allows you to reposition, enable or disable various design elements hooked to action locations.
 
 ## Header Controls
 Control header layout, menu position.
@@ -12,6 +12,9 @@ Control and reposition post elements.
 
 ## Custom Homepage template elements controls
 Control and reposition the Homepage elements.
+
+## Footer elements controls
+Control and reposition the Footer elements.
 
 ## And more...
 More controllers coming soon!
