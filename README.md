@@ -18,3 +18,6 @@ Control and reposition the Footer elements.
 
 ## And more...
 More controllers coming soon!
+
+## Credits
+Control code borrowed from the [HomePage Control](https://github.com/woocommerce/homepage-control) plugin by WooThemes
