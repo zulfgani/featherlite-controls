@@ -12,8 +12,8 @@
  * Text Domain: featherlite-controls
  *
  * @package FeatherLite_Controls
- * @category Core
- * @author Matty
+ * @category Addon
+ * @author GetFeatherLite
  */
 
 if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
@@ -36,8 +36,8 @@ Featherlite_Controls();
  * @class Featherlite_Controls
  * @version	1.0.0
  * @since 1.0.0
- * @package	Kudos
- * @author Matty
+ * @package	FeatherLite_Controls
+ * @author GetFeatherLite
  */
 final class Featherlite_Controls {
 	/**
@@ -151,7 +151,7 @@ final class Featherlite_Controls {
 	 * @since 1.0.0
 	 * @static
 	 * @see Featherlite_Controls()
-	 * @return Main Kudos instance
+	 * @return Main Featherlite_Controls instance
 	 */
 	public static function instance () {
 		if ( is_null( self::$_instance ) )

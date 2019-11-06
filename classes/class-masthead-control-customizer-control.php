@@ -107,7 +107,7 @@ class Featherlite_Masthead_Control_Customizer_Control extends WP_Customize_Contr
 	/**
 	 * Check if a component is disabled.
 	 * @access  private
-	 * @since   2.0.0
+	 * @since   1.0.0
 	 * @return  boolean True if a component if disabled.
 	 */
 	private function _is_masthead_component_disabled ( $component ) {
@@ -120,7 +120,7 @@ class Featherlite_Masthead_Control_Customizer_Control extends WP_Customize_Contr
 	/**
 	 * Return the disabled components in the given array, based on the format of the key.
 	 * @access  private
-	 * @since   2.0.0
+	 * @since   1.0.0
 	 * @return  array An array of disabled components.
 	 */
 	private function _get_masthead_disabled_components ( $saved_components, $all_components ) {

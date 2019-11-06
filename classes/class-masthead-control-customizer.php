@@ -18,7 +18,7 @@ class Featherlite_Masthead_Control_Customizer {
 	/**
 	 * Add section, setting and load custom customizer control.
 	 * @access public
-	 * @since  2.0.0
+	 * @since  1.0.0
 	 * @return void
 	 */
 	public function customizer_setup ( $wp_customize ) {
@@ -117,7 +117,7 @@ class Featherlite_Masthead_Control_Customizer {
 	/**
 	 * Format a given key into a title.
 	 * @access  private
-	 * @since   2.0.0
+	 * @since   1.0.0
 	 * @return  string A formatted title. If no formatting is possible, return the key.
 	 */
 	private function _masthead_format_title ( $key ) {
@@ -134,7 +134,7 @@ class Featherlite_Masthead_Control_Customizer {
 	/**
 	 * Format an array of components as a comma separated list.
 	 * @access  private
-	 * @since   2.0.0
+	 * @since   1.0.0
 	 * @return  string A list of components separated by a comma.
 	 */
 	private function _masthead_format_defaults () {

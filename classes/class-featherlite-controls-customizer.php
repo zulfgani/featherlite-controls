@@ -6,7 +6,7 @@ class Featherlite_Controls_Customizer {
 	/**
 	 * Constructor function.
 	 * @access public
-	 * @since  2.0.0
+	 * @since  1.0.0
 	 * @return void
 	 */
 	public function __construct () {		
@@ -18,7 +18,7 @@ class Featherlite_Controls_Customizer {
 	/**
 	 * Add section, setting and load custom customizer control.
 	 * @access public
-	 * @since  2.0.0
+	 * @since  1.0.0
 	 * @return void
 	 */
 	public function customizer_setup ( $wp_customize ) {
@@ -54,7 +54,7 @@ class Featherlite_Controls_Customizer {
 	/**
 	 * Enqueue scripts.
 	 * @access public
-	 * @since  2.0.0
+	 * @since  1.0.0
 	 * @return void
 	 */
 	public function enqueue_scripts() {
@@ -64,7 +64,7 @@ class Featherlite_Controls_Customizer {
 	/**
 	 * Enqueue styles.
 	 * @access public
-	 * @since  2.0.0
+	 * @since  1.0.0
 	 * @return void
 	 */
 	public function enqueue_styles() {
@@ -74,7 +74,7 @@ class Featherlite_Controls_Customizer {
 	/**
 	 * Ensures only array keys matching the original settings specified in add_control() are valid.
 	 * @access  public
-	 * @since   2.0.0
+	 * @since   1.0.0
 	 * @return  string The valid component.
 	*/
 	public function _canvas_sanitize_components( $input ) {
@@ -136,7 +136,7 @@ class Featherlite_Controls_Customizer {
 	/**
 	 * Format an array of components as a comma separated list.
 	 * @access  private
-	 * @since   2.0.0
+	 * @since   1.0.0
 	 * @return  string A list of components separated by a comma.
 	 */
 	private function _format_defaults () {

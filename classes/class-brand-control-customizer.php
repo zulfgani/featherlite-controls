@@ -18,7 +18,7 @@ class Featherlite_Brand_Control_Customizer {
 	/**
 	 * Add section, setting and load custom customizer control.
 	 * @access public
-	 * @since  2.0.0
+	 * @since  1.0.0
 	 * @return void
 	 */
 	public function customizer_setup ( $wp_customize ) {
