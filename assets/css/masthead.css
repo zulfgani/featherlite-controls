@@ -49,3 +49,7 @@ ul.masthead-control li .visibility:before {
 ul.masthead-control li.disabled .visibility:before {
 	content: "";
 }
+/*
+ul.masthead-control #centrik_skip_links {
+   display: none !important;
+}*/

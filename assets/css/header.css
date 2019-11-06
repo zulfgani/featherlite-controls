@@ -49,3 +49,7 @@ ul.header-control li .visibility:before {
 ul.header-control li.disabled .visibility:before {
 	content: "";
 }
+/*
+ul.header-control #centrik_skip_links {
+   display: none !important;
+}*/
