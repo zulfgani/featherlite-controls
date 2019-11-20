@@ -3,7 +3,7 @@
  * Plugin Name: FeatherLite Controls
  * Plugin URI: https://github.com/zulfgani/featherlite-controls/
  * Description: Hi! I'm here to assist you with re-ordering or disabling components of your theme's various designs i.e Header, Homepage, Footer e.t.c.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: GetFeatherLite
  * Author URI: https://getfeatherlite.com/
  * Requires at least: 1.0.0
@@ -12,7 +12,7 @@
  * Text Domain: featherlite-controls
  *
  * @package FeatherLite_Controls
- * @category Addon
+ * @category Core
  * @author GetFeatherLite
  */
 
@@ -36,7 +36,7 @@ Featherlite_Controls();
  * @class Featherlite_Controls
  * @version	1.0.0
  * @since 1.0.0
- * @package	FeatherLite_Controls
+ * @category Core
  * @author GetFeatherLite
  */
 final class Featherlite_Controls {
@@ -131,7 +131,10 @@ final class Featherlite_Controls {
 		require_once( 'classes/class-brand-control-customizer.php' );
 		require_once( 'classes/class-post-control-customizer.php' );
 		require_once( 'classes/class-footer-control-customizer.php' );
-
+		
+		/* Include the updater class */
+		require_once( 'classes/class-plugin-updater.php' );
+		
 		/* Reorder Components. */
 		if ( ! is_admin() ) {
 			add_action( 'get_header', array( $this, 'maybe_apply_restructuring_filter' ) );
