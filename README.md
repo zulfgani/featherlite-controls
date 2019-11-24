@@ -1,6 +1,9 @@
 # FeatherLite Controls
 FeatherLite Controls allows you to reposition, enable or disable various design elements hooked to action locations.
 
+## Downloading for the first time
+If downloading the plugin for the first time then please download from the [Latest Releases](https://github.com/zulfgani/featherlite-controls/releases/latest) page instead of the green button above.
+
 ## Header Controls
 Control header layout, menu position.
 
